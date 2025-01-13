@@ -1,7 +1,7 @@
 from PIL import Image
 import os
 
-def resize_images(directory, size=(500, 500)):
+def resize_images(directory, size=(100, 100)):
     # 指定したディレクトリとそのサブディレクトリのファイルを再帰的に処理
     for root, _, files in os.walk(directory):
         for filename in files:
